@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(240, 118, 74);
+}
+
+.container {
+    padding: 20px;
+}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    border-radius: 30px;
+    border: #333 solid 2px;
+}
+
+#imgalinhado2 {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+}
+
+.galeria img {
+    border-radius: 10px;
+    max-width: 30%;
+}
+
+.imgalinhado {
+    max-width: 40%;
+    border-radius: 10px;
+    
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+p {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#h2 {
+    text-align: left;
+    margin-left: 2%;
+}
+
+h3 {
+    text-align: left;
+}
+
+div p {
+    text-align: left;
+    color: black;
+}
+
+form {
+    text-align: left;
+    margin-left: 2%;
+}
